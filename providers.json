@@ -10,11 +10,6 @@
 		"response":["There's nothing here, yet.", "herokucdn.com/error-pages/no-such-app.html", "<title>No such app</title>"]
 	},
 	{
-		"name":"unbounce",
-		"cname":["unbouncepages.com"],
-		"response":["The requested URL / was not found on this server.", "The requested URL was not found on this server"]
-	},
-	{
 		"name":"tumblr",
 		"cname":["tumblr.com"],
 		"response":["There's nothing here.", "Whatever you were looking for doesn't currently exist at this address."]
@@ -23,11 +18,6 @@
 		"name":"shopify",
 		"cname":["myshopify.com"],
 		"response":["Sorry, this shop is currently unavailable.", "Only one step left!"]
-	},
-	{
-		"name":"instapage",
-		"cname":["pageserve.co", "secure.pageserve.co", "https://instapage.com/"],
-		"response":["You've Discovered A Missing Link. Our Apologies!"]
 	},
 	{
 		"name":"desk",
@@ -45,24 +35,9 @@
 		"response":["Double check the URL", "<strong>Trying to access your account?</strong>"]
 	},
 	{
-		"name":"cargocollective",
-		"cname":["cargocollective.com"],
-		"response":["404 Not Found"]
-	},
-	{
-		"name":"statuspage",
-		"cname":["statuspage.io"],
-		"response":["Better Status Communication", "You are being <a href=\"https://www.statuspage.io\">redirected"]
-	},
-	{
 		"name":"amazonaws",
 		"cname":["amazonaws.com"],
 		"response":["NoSuchBucket", "The specified bucket does not exist"]
-	},
-	{
-		"name":"cloudfront",
-		"cname":["cloudfront.net"],
-		"response":["The request could not be satisfied", "ERROR: The request could not be satisfied"]
 	},
 	{
 		"name":"bitbucket",
@@ -78,11 +53,6 @@
 		"name":"acquia",
 		"cname":["acquia.com"],
 		"response":["If you are an Acquia Cloud customer and expect to see your site at this address"]
-	},
-	{
-		"name":"fastly",
-		"cname":["fastly.net"],
-		"response":["Please check that this domain has been added to a service", "Fastly error: unknown domain"]
 	},
 	{
 		"name":"pantheon",
@@ -251,7 +221,7 @@
 	},
 	{
 		"name":"azure",
-		"cname":["azurewebsites.net"],
+		"cname":["azurewebsites.net","trafficmanager.net","azureedge.net","azure-api.net","cloudapp.net","cloud.azure.net"],
 		"response":["404 Web Site not found"]
 	}
 ]
