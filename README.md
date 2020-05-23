@@ -1,6 +1,5 @@
 # SubOver
-## Note - This project is discontinued. No more updates will be provided! Sorry!
-> But something more awesome will come soon! 
+## Forked from Ice3man543/SubOver
 
 Subover is a Hostile Subdomain Takeover tool originally written in python but rewritten from scratch in Golang. Since it's redesign, it has been aimed with speed and efficiency in mind. Till date, SubOver detects 30+ services which is much more than any other tool out there. The tool uses Golang concurrency and hence is very fast. It can easily detect and report potential subdomain takeovers that exist. The list of potentially hijackable services is very comprehensive and it is what makes this tool so powerful.
 
@@ -9,7 +8,7 @@ Subover is a Hostile Subdomain Takeover tool originally written in python but re
 You need to have Golang installed on your machine. There are no additional requirements for this tool.
 
 ```sh
-go get github.com/Ice3man543/SubOver
+go get github.com/Jonsey/SubOver
 ```
 
 > NOTE - Do not change the location of providers.json file. Or the tool will not work. 
